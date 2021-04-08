@@ -1,0 +1,7 @@
+5 registros.
+Nº;Abastecedora;Descripción;Cantidad;Precio Unitario;Impuesto;Subtotal;Total
+1;Daniel    ;Pantallas LCD                      ;3;1000.00;14;1140.00;3420.00
+2;Maxi      ;PC Samsung                         ;5;2500.50;14;2850.57;14252.85
+3;Microsoft ;Xbox One Scorpio                   ;5;450.99;21;545.70;2728.49
+4;Amazon    ;Videojuego Halo                    ;1000;1000000.00;25;1250000.00;1250000000.00
+5;Elektra   ;Televisor LG                       ;6;1000.00;11;1110.00;5550.00
