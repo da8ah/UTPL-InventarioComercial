@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
     opcionTipoUsuario();
     return 0;
 }

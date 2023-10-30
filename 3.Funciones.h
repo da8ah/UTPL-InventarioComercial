@@ -54,7 +54,6 @@ double calcularTotal(double b, int c);
 void verInventario();
 void modificarRegistros();
 Registro *editorDeRegistro(Registro *registroModificar);
-void buscarRegistro();
 void eliminarRegistro();
 // Otros:
 void imprimirRegistro(Registro *registroImprimir);
@@ -62,8 +61,8 @@ void imprimirRegistro(Registro *registroImprimir);
 // MÉTODOS PARA USUARIO TIPO: ADMINISTRADOR
 void ingresoInventario()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     // Comprobar que el archivo existe
     archivo = fopen(direccion, "r");
@@ -229,8 +228,8 @@ double calcularTotal(double b, int c)
 
 void verInventario()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     // Archivo
     archivo = fopen(direccion, "r");
@@ -299,8 +298,8 @@ void verInventario()
 
 void modificarRegistros()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     // Variables de control:
     bool bandera = true;
@@ -594,8 +593,8 @@ Registro *editorDeRegistro(Registro *registroModificar)
 
 void eliminarRegistro()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     // Variables de control:
     bool bandera = true;
@@ -786,8 +785,8 @@ void eliminarRegistro()
 // Imprimir un registro:
 void imprimirRegistro(Registro *registroImprimir)
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     printf("(%d);", registroImprimir->numero);
     for (int i = 0; i < 10; i++)

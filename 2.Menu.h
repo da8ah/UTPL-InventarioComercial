@@ -6,17 +6,17 @@
 #include <String.h>
 #include <stdexcept>
 #include <locale.h>
+#include <wchar.h>
 #include "3.Funciones.h"
 using namespace std;
 
 void validarAdministrador();
-void primerRegistroAux();
 void comoAdministrador();
 
 void opcionTipoUsuario()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     bool bandera = true;
     int control;
@@ -50,8 +50,8 @@ void opcionTipoUsuario()
 
 void validarAdministrador()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     bool bandera = true;
     string pseudonimo;
@@ -110,8 +110,8 @@ void validarAdministrador()
 
 void comoAdministrador()
 {
-    setlocale(LC_ALL, "spanish");
-    setlocale(LC_NUMERIC, "english");
+    setlocale(LC_ALL, "spanish.UTF-8");
+    setlocale(LC_NUMERIC, "english.UTF-8");
 
     bool bandera = true;
     int control;
